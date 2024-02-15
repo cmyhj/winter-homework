@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/263/bin/ninja/linux/x64/ninja -G Ninja -S /home/cmyhj/文档/winterhomework/src/the_package -B /home/cmyhj/文档/winterhomework/src/the_package/cmake-build-debug
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/265/bin/ninja/linux/x64/ninja -G Ninja -S /home/cmyhj/文档/winterhomework/src/the_package -B /home/cmyhj/文档/winterhomework/src/the_package/cmake-build-debug
 -- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)
 -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
 -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
