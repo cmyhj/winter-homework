@@ -1,0 +1,10 @@
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/uninstall.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/the_package_uninstall.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/the_node.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/test.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/edit_cache.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/rebuild_cache.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/list_install_components.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/install.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/install/local.dir
+/home/cmyhj/文档/winterhomework/build/the_package/CMakeFiles/install/strip.dir

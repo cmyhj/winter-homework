@@ -1,0 +1,50 @@
+[0.033s] Invoking command in '/home/cmyhj/文档/winterhomework/build/answer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cmyhj/文档/winterhomework/src/answer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/cmyhj/文档/winterhomework/install/answer
+[0.040s] -- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.158s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.196s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.197s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.389s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.394s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.394s] -- Configured cppcheck include dirs: /home/cmyhj/文档/winterhomework/src/answer/include
+[0.394s] -- Configured cppcheck exclude dirs and/or files: 
+[0.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.395s] -- Added test 'lint_cmake' to check CMake code style
+[0.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.397s] -- Added test 'uncrustify' to check C / C++ code style
+[0.397s] -- Configured uncrustify additional arguments: 
+[0.397s] -- Added test 'xmllint' to check XML markup files
+[0.397s] -- Configuring done
+[0.402s] -- Generating done
+[0.403s] -- Build files have been written to: /home/cmyhj/文档/winterhomework/build/answer
+[0.407s] Invoked command in '/home/cmyhj/文档/winterhomework/build/answer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cmyhj/文档/winterhomework/src/answer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/cmyhj/文档/winterhomework/install/answer
+[0.408s] Invoking command in '/home/cmyhj/文档/winterhomework/build/answer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/answer -- -j32 -l32
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target the_node[0m
+[0.432s] [ 50%] [32mBuilding CXX object CMakeFiles/the_node.dir/src/the_node.cpp.o[0m
+[5.612s] [100%] [32m[1mLinking CXX executable the_node[0m
+[5.732s] [100%] Built target the_node
+[5.742s] Invoked command in '/home/cmyhj/文档/winterhomework/build/answer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/answer -- -j32 -l32
+[5.754s] Invoking command in '/home/cmyhj/文档/winterhomework/build/answer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmyhj/文档/winterhomework/build/answer
+[5.759s] -- Install configuration: "Release"
+[5.759s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/ament_index/resource_index/package_run_dependencies/answer
+[5.759s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/ament_index/resource_index/parent_prefix_path/answer
+[5.759s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/environment/ament_prefix_path.sh
+[5.759s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/answer/environment/ament_prefix_path.dsv
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/environment/path.sh
+[5.760s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/answer/environment/path.dsv
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/local_setup.bash
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/local_setup.sh
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/local_setup.zsh
+[5.760s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/answer/local_setup.dsv
+[5.760s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/answer/package.dsv
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/ament_index/resource_index/packages/answer
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/cmake/answerConfig.cmake
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer/cmake/answerConfig-version.cmake
+[5.760s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/answer/package.xml
+[5.760s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/answer/share/answer//launch
+[5.761s] -- Installing: /home/cmyhj/文档/winterhomework/install/answer/share/answer//launch/answer.py
+[5.761s] Invoked command in '/home/cmyhj/文档/winterhomework/build/answer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmyhj/文档/winterhomework/build/answer

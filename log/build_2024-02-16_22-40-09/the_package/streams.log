@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/cmyhj/文档/winterhomework/build/the_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/the_package -- -j32 -l32
+[0.043s] [100%] Built target the_node
+[0.050s] Invoked command in '/home/cmyhj/文档/winterhomework/build/the_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/the_package -- -j32 -l32
+[0.081s] Invoking command in '/home/cmyhj/文档/winterhomework/build/the_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmyhj/文档/winterhomework/build/the_package
+[0.085s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/ament_index/resource_index/package_run_dependencies/the_package
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/ament_index/resource_index/parent_prefix_path/the_package
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/path.sh
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/path.dsv
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.bash
+[0.085s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.sh
+[0.086s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.zsh
+[0.086s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.dsv
+[0.086s] -- Installing: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/package.dsv
+[0.086s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/ament_index/resource_index/packages/the_package
+[0.086s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/cmake/the_packageConfig.cmake
+[0.086s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/cmake/the_packageConfig-version.cmake
+[0.086s] -- Up-to-date: /home/cmyhj/文档/winterhomework/install/the_package/share/the_package/package.xml
+[0.086s] Invoked command in '/home/cmyhj/文档/winterhomework/build/the_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cmyhj/文档/winterhomework/build/the_package

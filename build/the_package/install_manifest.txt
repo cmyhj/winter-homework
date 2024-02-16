@@ -1,0 +1,15 @@
+/home/cmyhj/文档/winterhomework/install/the_package/share/ament_index/resource_index/package_run_dependencies/the_package
+/home/cmyhj/文档/winterhomework/install/the_package/share/ament_index/resource_index/parent_prefix_path/the_package
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/ament_prefix_path.sh
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/ament_prefix_path.dsv
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/path.sh
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/environment/path.dsv
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.bash
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.sh
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.zsh
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/local_setup.dsv
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/package.dsv
+/home/cmyhj/文档/winterhomework/install/the_package/share/ament_index/resource_index/packages/the_package
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/cmake/the_packageConfig.cmake
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/cmake/the_packageConfig-version.cmake
+/home/cmyhj/文档/winterhomework/install/the_package/share/the_package/package.xml

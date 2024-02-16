@@ -1,0 +1,6 @@
+Invoking command in '/home/cmyhj/文档/winterhomework/build/homework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cmyhj/文档/winterhomework/src/homework -DCMAKE_INSTALL_PREFIX=/home/cmyhj/文档/winterhomework/install/homework
+Invoked command in '/home/cmyhj/文档/winterhomework/build/homework' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cmyhj/文档/winterhomework/src/homework -DCMAKE_INSTALL_PREFIX=/home/cmyhj/文档/winterhomework/install/homework
+Invoking command in '/home/cmyhj/文档/winterhomework/build/homework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/homework -- -j32 -l32
+Invoked command in '/home/cmyhj/文档/winterhomework/build/homework' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/homework -- -j32 -l32
+Invoking command in '/home/cmyhj/文档/winterhomework/build/homework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cmyhj/文档/winterhomework/build/homework
+Invoked command in '/home/cmyhj/文档/winterhomework/build/homework' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cmyhj/文档/winterhomework/build/homework

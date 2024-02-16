@@ -1,0 +1,5 @@
+[0.020s] Invoking command in '/home/cmyhj/文档/winterhomework/build/the_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/the_package -- -j32 -l32
+[0.028s] [0mCMake Error: The source directory "/home/cmyhj/文档/winterhomework/src/the_package" does not exist.
+[0.028s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.028s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.029s] Invoked command in '/home/cmyhj/文档/winterhomework/build/the_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/the_package -- -j32 -l32

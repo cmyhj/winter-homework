@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (answer) JobQueued: {'identifier': 'answer', 'dependencies': OrderedDict()}
+[0.000288] (homework) JobQueued: {'identifier': 'homework', 'dependencies': OrderedDict()}
+[0.000297] (answer) JobStarted: {'identifier': 'answer'}
+[0.016097] (homework) JobStarted: {'identifier': 'homework'}
+[0.032377] (answer) JobProgress: {'identifier': 'answer', 'progress': 'cmake'}
+[0.033302] (answer) Command: {'cmd': ['/usr/bin/cmake', '/home/cmyhj/文档/winterhomework/src/answer', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/cmyhj/文档/winterhomework/install/answer'], 'cwd': '/home/cmyhj/文档/winterhomework/build/answer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cmyhj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cmyhj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmyhj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmyhj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cmyhj-ROG-Strix-G814JV-G814JV:@/tmp/.ICE-unix/1542,unix/cmyhj-ROG-Strix-G814JV-G814JV:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e21688ef_c4c3_4dbc_b576_f96247ceff27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJGVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.352'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmyhj/文档/winterhomework/build/answer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034510] (homework) JobProgress: {'identifier': 'homework', 'progress': 'cmake'}
+[0.034939] (homework) Command: {'cmd': ['/usr/bin/cmake', '/home/cmyhj/文档/winterhomework/src/homework', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/cmyhj/文档/winterhomework/install/homework'], 'cwd': '/home/cmyhj/文档/winterhomework/build/homework', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cmyhj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cmyhj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmyhj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmyhj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cmyhj-ROG-Strix-G814JV-G814JV:@/tmp/.ICE-unix/1542,unix/cmyhj-ROG-Strix-G814JV-G814JV:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e21688ef_c4c3_4dbc_b576_f96247ceff27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJGVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.352'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmyhj/文档/winterhomework/build/homework'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039546] (answer) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.040906] (homework) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099906] (-) TimerEvent: {}
+[0.105141] (homework) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.118445] (homework) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.119587] (homework) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.122369] (homework) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.127612] (homework) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.135011] (homework) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.145627] (answer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.146727] (answer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.149574] (answer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.154539] (answer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.161770] (answer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.162161] (homework) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.162926] (homework) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.188334] (answer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.188942] (answer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200060] (-) TimerEvent: {}
+[0.215185] (homework) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.241749] (answer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.288948] (homework) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.300220] (-) TimerEvent: {}
+[0.309039] (homework) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.319567] (answer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.323995] (answer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.324055] (answer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/src/answer/include\n'}
+[0.324091] (answer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.324368] (answer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.325089] (answer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.325267] (answer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.327314] (answer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.327371] (answer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.327476] (answer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.327748] (answer) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.332676] (answer) StdoutLine: {'line': b'-- Generating done\n'}
+[0.333329] (answer) StdoutLine: {'line': b'-- Build files have been written to: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/build/answer\n'}
+[0.336543] (answer) CommandEnded: {'returncode': 0}
+[0.336877] (answer) JobProgress: {'identifier': 'answer', 'progress': 'build'}
+[0.337312] (answer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cmyhj/文档/winterhomework/build/answer', '--', '-j32', '-l32'], 'cwd': '/home/cmyhj/文档/winterhomework/build/answer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cmyhj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cmyhj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmyhj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmyhj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cmyhj-ROG-Strix-G814JV-G814JV:@/tmp/.ICE-unix/1542,unix/cmyhj-ROG-Strix-G814JV-G814JV:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e21688ef_c4c3_4dbc_b576_f96247ceff27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJGVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.352'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmyhj/文档/winterhomework/build/answer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.349683] (homework) StdoutLine: {'line': b'-- Found cv_bridge: 3.4.0 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.355222] (answer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target the_node\x1b[0m\n'}
+[0.361464] (answer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/the_node.dir/src/the_node.cpp.o\x1b[0m\n'}
+[0.362597] (homework) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.393270] (homework) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.399444] (homework) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.399540] (homework) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/src/homework/thirdparty/websocketpp-0.8.2;$<BUILD_INTERFACE:/home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/src/homework/include>\n'}
+[0.399603] (homework) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.400374] (-) TimerEvent: {}
+[0.405642] (homework) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.405770] (homework) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.407987] (homework) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.414679] (homework) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.414808] (homework) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.415561] (homework) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.415776] (homework) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.421349] (homework) StdoutLine: {'line': b'-- Generating done\n'}
+[0.421982] (homework) StdoutLine: {'line': b'-- Build files have been written to: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/build/homework\n'}
+[0.425818] (homework) CommandEnded: {'returncode': 0}
+[0.426071] (homework) JobProgress: {'identifier': 'homework', 'progress': 'build'}
+[0.426767] (homework) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cmyhj/文档/winterhomework/build/homework', '--', '-j32', '-l32'], 'cwd': '/home/cmyhj/文档/winterhomework/build/homework', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cmyhj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cmyhj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmyhj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmyhj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cmyhj-ROG-Strix-G814JV-G814JV:@/tmp/.ICE-unix/1542,unix/cmyhj-ROG-Strix-G814JV-G814JV:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e21688ef_c4c3_4dbc_b576_f96247ceff27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJGVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.352'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmyhj/文档/winterhomework/build/homework'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.446802] (homework) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target homework_node\x1b[0m\n'}
+[0.461281] (homework) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/homework_node.dir/src/homework_node.cpp.o\x1b[0m\n'}
+[0.500580] (-) TimerEvent: {}
+[0.600888] (-) TimerEvent: {}
+[0.701220] (-) TimerEvent: {}
+[0.801519] (-) TimerEvent: {}
+[0.901757] (-) TimerEvent: {}
+[1.002080] (-) TimerEvent: {}
+[1.075198] (answer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable the_node\x1b[0m\n'}
+[1.102158] (-) TimerEvent: {}
+[1.196502] (answer) StdoutLine: {'line': b'[100%] Built target the_node\n'}
+[1.202274] (-) TimerEvent: {}
+[1.206403] (answer) CommandEnded: {'returncode': 0}
+[1.217506] (answer) JobProgress: {'identifier': 'answer', 'progress': 'install'}
+[1.221367] (answer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cmyhj/文档/winterhomework/build/answer'], 'cwd': '/home/cmyhj/文档/winterhomework/build/answer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cmyhj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cmyhj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmyhj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmyhj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cmyhj-ROG-Strix-G814JV-G814JV:@/tmp/.ICE-unix/1542,unix/cmyhj-ROG-Strix-G814JV-G814JV:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e21688ef_c4c3_4dbc_b576_f96247ceff27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJGVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.352'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmyhj/文档/winterhomework/build/answer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.224447] (answer) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.224536] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/ament_index/resource_index/package_run_dependencies/answer\n'}
+[1.224657] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/ament_index/resource_index/parent_prefix_path/answer\n'}
+[1.224709] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/environment/ament_prefix_path.sh\n'}
+[1.224737] (answer) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/environment/ament_prefix_path.dsv\n'}
+[1.224762] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/environment/path.sh\n'}
+[1.224788] (answer) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/environment/path.dsv\n'}
+[1.224812] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/local_setup.bash\n'}
+[1.224835] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/local_setup.sh\n'}
+[1.224879] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/local_setup.zsh\n'}
+[1.224901] (answer) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/local_setup.dsv\n'}
+[1.224922] (answer) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/package.dsv\n'}
+[1.224943] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/ament_index/resource_index/packages/answer\n'}
+[1.224964] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/cmake/answerConfig.cmake\n'}
+[1.224986] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/cmake/answerConfig-version.cmake\n'}
+[1.225007] (answer) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/answer/share/answer/package.xml\n'}
+[1.225637] (answer) CommandEnded: {'returncode': 0}
+[1.277844] (answer) JobEnded: {'identifier': 'answer', 'rc': 0}
+[1.302377] (-) TimerEvent: {}
+[1.402647] (-) TimerEvent: {}
+[1.502968] (-) TimerEvent: {}
+[1.603298] (-) TimerEvent: {}
+[1.703577] (-) TimerEvent: {}
+[1.803876] (-) TimerEvent: {}
+[1.904118] (-) TimerEvent: {}
+[2.004416] (-) TimerEvent: {}
+[2.104622] (-) TimerEvent: {}
+[2.204823] (-) TimerEvent: {}
+[2.305063] (-) TimerEvent: {}
+[2.405384] (-) TimerEvent: {}
+[2.505671] (-) TimerEvent: {}
+[2.605964] (-) TimerEvent: {}
+[2.706257] (-) TimerEvent: {}
+[2.806541] (-) TimerEvent: {}
+[2.906834] (-) TimerEvent: {}
+[3.007156] (-) TimerEvent: {}
+[3.107490] (-) TimerEvent: {}
+[3.207775] (-) TimerEvent: {}
+[3.308061] (-) TimerEvent: {}
+[3.408355] (-) TimerEvent: {}
+[3.508634] (-) TimerEvent: {}
+[3.608851] (-) TimerEvent: {}
+[3.709085] (-) TimerEvent: {}
+[3.809434] (-) TimerEvent: {}
+[3.909721] (-) TimerEvent: {}
+[4.010010] (-) TimerEvent: {}
+[4.110296] (-) TimerEvent: {}
+[4.210598] (-) TimerEvent: {}
+[4.310911] (-) TimerEvent: {}
+[4.411195] (-) TimerEvent: {}
+[4.511500] (-) TimerEvent: {}
+[4.611822] (-) TimerEvent: {}
+[4.712101] (-) TimerEvent: {}
+[4.812390] (-) TimerEvent: {}
+[4.912655] (-) TimerEvent: {}
+[5.012861] (-) TimerEvent: {}
+[5.113136] (-) TimerEvent: {}
+[5.213439] (-) TimerEvent: {}
+[5.313758] (-) TimerEvent: {}
+[5.414098] (-) TimerEvent: {}
+[5.514391] (-) TimerEvent: {}
+[5.614697] (-) TimerEvent: {}
+[5.714997] (-) TimerEvent: {}
+[5.815301] (-) TimerEvent: {}
+[5.915578] (-) TimerEvent: {}
+[6.015864] (-) TimerEvent: {}
+[6.116162] (-) TimerEvent: {}
+[6.216447] (-) TimerEvent: {}
+[6.316678] (-) TimerEvent: {}
+[6.416881] (-) TimerEvent: {}
+[6.517135] (-) TimerEvent: {}
+[6.617330] (-) TimerEvent: {}
+[6.717517] (-) TimerEvent: {}
+[6.817798] (-) TimerEvent: {}
+[6.918076] (-) TimerEvent: {}
+[7.018363] (-) TimerEvent: {}
+[7.118665] (-) TimerEvent: {}
+[7.218942] (-) TimerEvent: {}
+[7.319216] (-) TimerEvent: {}
+[7.419500] (-) TimerEvent: {}
+[7.519811] (-) TimerEvent: {}
+[7.620127] (-) TimerEvent: {}
+[7.720430] (-) TimerEvent: {}
+[7.820774] (-) TimerEvent: {}
+[7.921101] (-) TimerEvent: {}
+[8.021405] (-) TimerEvent: {}
+[8.121693] (-) TimerEvent: {}
+[8.221976] (-) TimerEvent: {}
+[8.322257] (-) TimerEvent: {}
+[8.422491] (-) TimerEvent: {}
+[8.522804] (-) TimerEvent: {}
+[8.623068] (-) TimerEvent: {}
+[8.723364] (-) TimerEvent: {}
+[8.823554] (-) TimerEvent: {}
+[8.923833] (-) TimerEvent: {}
+[9.024134] (-) TimerEvent: {}
+[9.124327] (-) TimerEvent: {}
+[9.224581] (-) TimerEvent: {}
+[9.324776] (-) TimerEvent: {}
+[9.424977] (-) TimerEvent: {}
+[9.525259] (-) TimerEvent: {}
+[9.625549] (-) TimerEvent: {}
+[9.725750] (-) TimerEvent: {}
+[9.826027] (-) TimerEvent: {}
+[9.926326] (-) TimerEvent: {}
+[10.026638] (-) TimerEvent: {}
+[10.126924] (-) TimerEvent: {}
+[10.227136] (-) TimerEvent: {}
+[10.327351] (-) TimerEvent: {}
+[10.427551] (-) TimerEvent: {}
+[10.527753] (-) TimerEvent: {}
+[10.627943] (-) TimerEvent: {}
+[10.728154] (-) TimerEvent: {}
+[10.828366] (-) TimerEvent: {}
+[10.928643] (-) TimerEvent: {}
+[11.028849] (-) TimerEvent: {}
+[11.129112] (-) TimerEvent: {}
+[11.222328] (homework) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable homework_node\x1b[0m\n'}
+[11.229175] (-) TimerEvent: {}
+[11.329457] (-) TimerEvent: {}
+[11.365531] (homework) StdoutLine: {'line': b'[100%] Built target homework_node\n'}
+[11.374562] (homework) CommandEnded: {'returncode': 0}
+[11.386988] (homework) JobProgress: {'identifier': 'homework', 'progress': 'install'}
+[11.387356] (homework) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cmyhj/文档/winterhomework/build/homework'], 'cwd': '/home/cmyhj/文档/winterhomework/build/homework', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cmyhj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cmyhj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cmyhj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cmyhj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cmyhj-ROG-Strix-G814JV-G814JV:@/tmp/.ICE-unix/1542,unix/cmyhj-ROG-Strix-G814JV-G814JV:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e21688ef_c4c3_4dbc_b576_f96247ceff27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DJGVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.352'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cmyhj/文档/winterhomework/build/homework'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f529a29a92f636fefbb849a65cf2509'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.392223] (homework) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[11.392305] (homework) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/lib/homework/homework_node\n'}
+[11.393997] (homework) StdoutLine: {'line': b'-- Set runtime path of "/home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/lib/homework/homework_node" to ""\n'}
+[11.394031] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/ament_index/resource_index/package_run_dependencies/homework\n'}
+[11.394057] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/ament_index/resource_index/parent_prefix_path/homework\n'}
+[11.394110] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/environment/ament_prefix_path.sh\n'}
+[11.394138] (homework) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/environment/ament_prefix_path.dsv\n'}
+[11.394222] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/environment/path.sh\n'}
+[11.394253] (homework) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/environment/path.dsv\n'}
+[11.394279] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/local_setup.bash\n'}
+[11.394331] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/local_setup.sh\n'}
+[11.394356] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/local_setup.zsh\n'}
+[11.394382] (homework) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/local_setup.dsv\n'}
+[11.394411] (homework) StdoutLine: {'line': b'-- Installing: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/package.dsv\n'}
+[11.394485] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/ament_index/resource_index/packages/homework\n'}
+[11.394553] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/cmake/homeworkConfig.cmake\n'}
+[11.394622] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/cmake/homeworkConfig-version.cmake\n'}
+[11.394655] (homework) StdoutLine: {'line': b'-- Up-to-date: /home/cmyhj/\xe6\x96\x87\xe6\xa1\xa3/winterhomework/install/homework/share/homework/package.xml\n'}
+[11.395256] (homework) CommandEnded: {'returncode': 0}
+[11.429659] (-) TimerEvent: {}
+[11.449070] (homework) JobEnded: {'identifier': 'homework', 'rc': 0}
+[11.449428] (-) EventReactorShutdown: {}

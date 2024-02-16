@@ -1,0 +1,5 @@
+# ninja log v5
+8455	8912	1708076477075881217	homework_node	6b0b99dcee5b05a3
+3	8455	1708076476611838460	CMakeFiles/homework_node.dir/src/homework_node.cpp.o	92be6800ddc9747f
+2	8300	1708093272303039199	CMakeFiles/homework_node.dir/src/homework_node.cpp.o	201f8ef44b41230
+8300	8715	1708093272727026291	homework_node	6b0b99dcee5b05a3

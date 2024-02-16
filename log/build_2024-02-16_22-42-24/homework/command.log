@@ -1,0 +1,1 @@
+Invoking command in '/home/cmyhj/文档/winterhomework/build/homework': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cmyhj/文档/winterhomework/build/homework -- -j32 -l32
