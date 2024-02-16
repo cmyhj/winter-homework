@@ -6,5 +6,5 @@ def generate_launch_description():
         launch_ros.actions.Node(
             namespace= "homework", package='homework', executable='homework_node', output='screen'),
         launch_ros.actions.Node(
-            namespace= "answer", package='answer', executable='the_node', output='screen'),
+            namespace= "answer", package='answer', executable='answer_node', output='screen'),
     ])
